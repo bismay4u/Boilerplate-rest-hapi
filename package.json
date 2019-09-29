@@ -1,26 +1,27 @@
 {
-  "name": "boilerplate-rest-hapi",
-  "version": "1.0.0",
-  "description": "Quick bootstrap framework to start working with API",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bismay4u/boilerplate-rest-hapi.git"
-  },
-  "keywords": [
-  ],
-  "author": "Bismay Mohapatra",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bismay4u/boilerplate-rest-hapi/issues"
-  },
-  "homepage": "https://github.com/bismay4u/boilerplate-rest-hapi#readme",
-  "dependencies": {
-    "bcryptjs": "^2.4.0",
-    "rest-hapi": "latest"
-  }
+    "name": "boilerplate-rest-hapi",
+    "version": "1.0.0",
+    "description": "Quick bootstrap framework to start working with API",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bismay4u/boilerplate-rest-hapi.git"
+    },
+    "keywords": [],
+    "author": "Bismay Mohapatra",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bismay4u/boilerplate-rest-hapi/issues"
+    },
+    "homepage": "https://github.com/bismay4u/boilerplate-rest-hapi#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.0",
+        "hapi-auth-jwt2": "^8.6.2",
+        "jsonwebtoken": "^8.5.1",
+        "rest-hapi": "latest"
+    }
 }
